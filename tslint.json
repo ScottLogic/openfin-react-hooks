@@ -9,7 +9,8 @@
     "linterOptions": {
         "exclude": [
             "node_modules/**/*",
-            "demo/node_modules/**/*"
+            "demo/node_modules/**/*",
+            "src/__tests__/**/*"
         ]
     }
 }

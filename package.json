@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "tsc",
     "lint": "tslint src/{**,.}/*.ts{,x} demo/{**,.}/ts{,x}",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "react-scripts test",
     "license-validation": "npm prune --production && npm install --production && npx node-license-validator . --allow-licenses MIT Apache-2.0"
   },
   "repository": {
@@ -30,12 +30,16 @@
   },
   "homepage": "https://github.com/finos/openfin-react-hooks#readme",
   "devDependencies": {
+    "@testing-library/react-hooks": "3.2.1",
     "@types/openfin": "^41.0.0",
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.9.1",
     "dtslint": "^2.0.5",
     "husky": "^2.3.0",
     "node-license-validator": "^1.3.0",
+    "react": "16.13.1",
+    "react-scripts": "3.4.1",
+    "react-test-renderer": "16.13.1",
     "tslint": "^5.16.0",
     "typescript": "^3.4.5"
   },

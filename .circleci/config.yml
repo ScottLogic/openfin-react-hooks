@@ -32,6 +32,7 @@ jobs:
       - run: sudo npm install -g typescript
       - run: npm run compile
       - run: npm run lint
+      - run: npm test
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "./demo/package.json" }}
