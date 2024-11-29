@@ -7,7 +7,7 @@
     "classnames": "^2.2.6",
     "openfin-layouts": "^1.0.3",
     "openfin-react-hooks": "file:../",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.27.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-html-parser": "^2.0.2",
